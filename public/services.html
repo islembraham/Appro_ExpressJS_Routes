@@ -1,0 +1,206 @@
+<html>
+  <head>
+    <title>Appro</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+     
+      .jumbotron {
+        background-color: #0a1938;
+        color: #fff;
+        padding: 100px 25px;
+      }
+      .container-fluid {
+        padding: 60px 50px;
+      }
+      body {
+        background-color: #0a1938;
+        color: #333;
+      }
+
+      section {
+        margin: 50px 0;
+      }
+
+      .section-title {
+        background-color: #fff;
+        margin-bottom: 50px;
+        overflow: hidden;
+        color: #ff4444;
+        border-left: 5px solid black;
+      }
+
+      .services-inner {
+        overflow: hidden;
+        clear: both;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .service {
+        padding: 20px 0;
+        background-color: #0a1938;
+        border: 1px solid #ff4444;
+      }
+
+      .service h3 {
+        color: #ff4444;
+      }
+
+      .service:hover {
+        padding: 20px 0;
+        background-color: #0a1938;
+      }
+
+      .service:hover h3 {
+        color: #fff;
+      }
+
+      .service-content {
+        color: #fff;
+        padding: 0 10px;
+      }
+
+      @media (max-width: 767px) {
+        .services-inner {
+          display: block;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"
+        ><img src="logo.png" alt="logo1" width="50px" height="50px"
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="home.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="services.html">Services</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center" style="padding: 50px">
+      <h1>Our Services</h1>
+      <p
+        style="
+          font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+          font-weight: bold;
+        "
+      >
+      Faites l'inventaire plus souvent et plus rapidement
+      </p>
+    </div>
+
+    <section id="Services" class="container">
+      
+      <!--col-md-12-->
+
+      <div class="services-inner text-center">
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>Web Development</strong></h3>
+            <p>
+              Regione probatus conclusionemque vel ne, assum congue in eos.
+              Elitr accusata nam ne, est an altera maiorum, purto nostrum
+              verterem pri et. Odio numquam appareat mea an, ne nam dicat
+              putant, his an mazim paulo aperiam.
+            </p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>Web Designing</strong></h3>
+            <p>
+              Regione probatus ne nam dicat putant, his an mazim paulo aperiam.
+            </p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>SEO</strong></h3>
+            <p>
+              Regione probatus conclusionemque vel ne, assum congue in eos. his
+              an mazim paulo aperiam.
+            </p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>Branding</strong></h3>
+            <p>Regione ne nam dicat putant, his an mazim paulo aperiam.</p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>Social Media</strong></h3>
+            <p>
+              Odio numquam appareat mea an, ne nam dicat putant, his an mazim
+              paulo aperiam.
+            </p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+        <div class="col-sm-4 service">
+          <div class="service-content">
+            <h3><strong>eCommerce</strong></h3>
+            <p>
+              Regione probatus conclusionemque vel ne, assum congue in eos.
+              Elitr accusata nam ne, est an altera maiorum, purto nostrum
+              verterem pri et.
+            </p>
+          </div>
+        </div>
+        <!--col-sm-3-->
+      </div>
+      <!--services-inner-->
+    </section>
+  </body>
+</html>
